@@ -12,6 +12,7 @@
 		FE10DCB91C32031700C8043E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCB71C32031700C8043E /* Main.storyboard */; };
 		FE10DCBB1C32031700C8043E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCBA1C32031700C8043E /* Assets.xcassets */; };
 		FE10DCBE1C32031700C8043E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCBC1C32031700C8043E /* LaunchScreen.storyboard */; };
+		FE10DCCE1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCCD1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FE10DCBA1C32031700C8043E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE10DCBD1C32031700C8043E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE10DCBF1C32031700C8043E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE10DCCD1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light-blue-blur-29359-1920x1080.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FE10DCB21C32031700C8043E /* Whats the Weather */ = {
 			isa = PBXGroup;
 			children = (
+				FE10DCCD1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg */,
 				FE10DCB31C32031700C8043E /* AppDelegate.swift */,
 				FE10DCB51C32031700C8043E /* ViewController.swift */,
 				FE10DCB71C32031700C8043E /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				FE10DCBE1C32031700C8043E /* LaunchScreen.storyboard in Resources */,
 				FE10DCBB1C32031700C8043E /* Assets.xcassets in Resources */,
+				FE10DCCE1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg in Resources */,
 				FE10DCB91C32031700C8043E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
