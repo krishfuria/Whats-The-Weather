@@ -12,7 +12,13 @@
 		FE10DCB91C32031700C8043E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCB71C32031700C8043E /* Main.storyboard */; };
 		FE10DCBB1C32031700C8043E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCBA1C32031700C8043E /* Assets.xcassets */; };
 		FE10DCBE1C32031700C8043E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCBC1C32031700C8043E /* LaunchScreen.storyboard */; };
-		FE10DCCE1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE10DCCD1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg */; };
+		FE148D5E1C35FD2100CBAD26 /* free-vector-simple-weather-symbols-clip-art_110519_Simple_Weather_Symbols_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = FE148D581C35FD2100CBAD26 /* free-vector-simple-weather-symbols-clip-art_110519_Simple_Weather_Symbols_clip_art_hight.png */; };
+		FE148D5F1C35FD2100CBAD26 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = FE148D591C35FD2100CBAD26 /* cloud.png */; };
+		FE148D601C35FD2100CBAD26 /* rainheavy.png in Resources */ = {isa = PBXBuildFile; fileRef = FE148D5A1C35FD2100CBAD26 /* rainheavy.png */; };
+		FE148D611C35FD2100CBAD26 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = FE148D5B1C35FD2100CBAD26 /* sun.png */; };
+		FE148D621C35FD2100CBAD26 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = FE148D5C1C35FD2100CBAD26 /* rain.png */; };
+		FE148D631C35FD2100CBAD26 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE148D5D1C35FD2100CBAD26 /* snow.png */; };
+		FE148D651C36003900CBAD26 /* light-gradient-3-1920x1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE148D641C36003900CBAD26 /* light-gradient-3-1920x1080.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +29,13 @@
 		FE10DCBA1C32031700C8043E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE10DCBD1C32031700C8043E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE10DCBF1C32031700C8043E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE10DCCD1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light-blue-blur-29359-1920x1080.jpg"; sourceTree = "<group>"; };
+		FE148D581C35FD2100CBAD26 /* free-vector-simple-weather-symbols-clip-art_110519_Simple_Weather_Symbols_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "free-vector-simple-weather-symbols-clip-art_110519_Simple_Weather_Symbols_clip_art_hight.png"; sourceTree = "<group>"; };
+		FE148D591C35FD2100CBAD26 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		FE148D5A1C35FD2100CBAD26 /* rainheavy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainheavy.png; sourceTree = "<group>"; };
+		FE148D5B1C35FD2100CBAD26 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		FE148D5C1C35FD2100CBAD26 /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		FE148D5D1C35FD2100CBAD26 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		FE148D641C36003900CBAD26 /* light-gradient-3-1920x1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "light-gradient-3-1920x1080.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,13 @@
 		FE10DCB21C32031700C8043E /* Whats the Weather */ = {
 			isa = PBXGroup;
 			children = (
-				FE10DCCD1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg */,
+				FE148D641C36003900CBAD26 /* light-gradient-3-1920x1080.jpg */,
+				FE148D581C35FD2100CBAD26 /* free-vector-simple-weather-symbols-clip-art_110519_Simple_Weather_Symbols_clip_art_hight.png */,
+				FE148D591C35FD2100CBAD26 /* cloud.png */,
+				FE148D5A1C35FD2100CBAD26 /* rainheavy.png */,
+				FE148D5B1C35FD2100CBAD26 /* sun.png */,
+				FE148D5C1C35FD2100CBAD26 /* rain.png */,
+				FE148D5D1C35FD2100CBAD26 /* snow.png */,
 				FE10DCB31C32031700C8043E /* AppDelegate.swift */,
 				FE10DCB51C32031700C8043E /* ViewController.swift */,
 				FE10DCB71C32031700C8043E /* Main.storyboard */,
@@ -125,9 +143,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE148D611C35FD2100CBAD26 /* sun.png in Resources */,
 				FE10DCBE1C32031700C8043E /* LaunchScreen.storyboard in Resources */,
+				FE148D621C35FD2100CBAD26 /* rain.png in Resources */,
+				FE148D601C35FD2100CBAD26 /* rainheavy.png in Resources */,
 				FE10DCBB1C32031700C8043E /* Assets.xcassets in Resources */,
-				FE10DCCE1C3209CD00C8043E /* light-blue-blur-29359-1920x1080.jpg in Resources */,
+				FE148D5E1C35FD2100CBAD26 /* free-vector-simple-weather-symbols-clip-art_110519_Simple_Weather_Symbols_clip_art_hight.png in Resources */,
+				FE148D631C35FD2100CBAD26 /* snow.png in Resources */,
+				FE148D5F1C35FD2100CBAD26 /* cloud.png in Resources */,
+				FE148D651C36003900CBAD26 /* light-gradient-3-1920x1080.jpg in Resources */,
 				FE10DCB91C32031700C8043E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +312,7 @@
 				FE10DCC41C32031700C8043E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

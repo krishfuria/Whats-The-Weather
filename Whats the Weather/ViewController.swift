@@ -44,6 +44,19 @@ class ViewController: UIViewController {
                             dispatch_async(dispatch_get_main_queue(), { () -> Void in
                                 self.result.text = summary
                                 self.result.textColor = UIColor.greenColor()
+                                if (summary.lowercaseString.rangeOfString("snow") != nil) {
+                                    self.imageView.image = UIImage(named: "snow.png")
+                                }
+                                else if summary.lowercaseString.rangeOfString("rain") != nil {
+                                    self.imageView.image = UIImage(named: "rain.png")
+                                }
+                                else if summary.lowercaseString.rangeOfString("cloud") != nil {
+                                    self.imageView.image = UIImage(named: "cloud.png")
+                                }
+                                else {
+                                    self.imageView.image = UIImage(named: "sun.png")
+                                }
+                                
                             })
                         }
                     }

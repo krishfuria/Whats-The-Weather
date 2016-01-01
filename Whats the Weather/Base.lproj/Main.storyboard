@@ -18,16 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="light-blue-blur-29359-1920x1080.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P6s-xW-2MS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="light-gradient-3-1920x1080.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P6s-xW-2MS">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's the weather?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZt-Xt-nKS">
-                                <rect key="frame" x="162" y="28" width="276" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's the Weather Forecast?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZt-Xt-nKS">
+                                <rect key="frame" x="115" y="28" width="370" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="276" id="67S-Xc-I0z"/>
+                                    <constraint firstAttribute="width" constant="370" id="67S-Xc-I0z"/>
                                     <constraint firstAttribute="height" constant="50" id="Lr9-de-Wmw"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="28"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
@@ -61,7 +61,7 @@
                                     <action selector="findWeatherButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gRb-ye-bRX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGu-xE-3W2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGu-xE-3W2">
                                 <rect key="frame" x="162" y="244" width="276" height="151"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="151" id="Rrd-Rn-jI7"/>
@@ -71,7 +71,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ism-Hm-h6z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ism-Hm-h6z">
                                 <rect key="frame" x="180" y="424" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="7mV-L1-jmO"/>
@@ -112,6 +112,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="light-blue-blur-29359-1920x1080.jpg" width="1920" height="1080"/>
+        <image name="light-gradient-3-1920x1080.jpg" width="1920" height="1080"/>
     </resources>
 </document>
